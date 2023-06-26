@@ -30,7 +30,7 @@ const server = app.listen(process.env.PORT, () =>
 );
 const io = socket(server, {
   cors: {
-    origin: "https://localhost:3000",
+    origin: "https://chat-application-msix.onrender.com",
     credentials: true,
     methods: ["GET", "POST"],
   },
